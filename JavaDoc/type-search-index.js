@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.example.assignment1","l":"Assignment1"},{"p":"com.example.assignment1","l":"secondcount"},{"p":"com.example.assignment1","l":"ThreadMalay"},{"p":"com.example.assignment1","l":"ThreadSPV"}];updateSearchResults();
