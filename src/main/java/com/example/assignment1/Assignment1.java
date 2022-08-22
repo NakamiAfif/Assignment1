@@ -14,7 +14,7 @@ import org.jsoup.nodes.Element;
 
     public class Assignment1 extends Application {
         /**
-         * This file is for webscraping data from github and divide it into certain condition
+         * This file is for webscraping daata from github and divide it into certain condition
          * @param Rizky Nakami Afif
          * @param Indonesia
          */
