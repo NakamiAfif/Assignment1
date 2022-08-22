@@ -1,3 +1,10 @@
+
+/**
+ *
+ * This class is for import the .jar
+ *
+ * @author Rizky Nakami Afif
+ */
 package com.example.assignment1;
 import javafx.application.Application;
 import javafx.stage.Stage;
@@ -5,9 +12,12 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
-
     public class Assignment1 extends Application {
-        private final String githubLink = "https://github.com/socuum/STIX3912/wiki/List-of-Supervisors-(A211)";
+        /**
+         * This file is for webscraping data from github and divide it into certain condition
+         * @param Rizky Nakami Afif
+         * @param Indonesia
+         */
         private final String myString = "List-of-Supervisors-(A211)";
         private Document doc;
 
@@ -23,6 +33,7 @@ import org.jsoup.nodes.Element;
 
         @Override
         public void start(Stage stage) throws Exception {
+
             int i = 0;
             int malay = 0;
             int indi = 0;
@@ -100,7 +111,8 @@ import org.jsoup.nodes.Element;
                 System.out.println("Supervisor List:");
 
                 for (int x = 0; x < i; x++) {
-                    if (supervisor[x].equals(supervisor[x+1] )==true&&supervisor[x].equals(supervisor[x + 2] )!=true&&supervisor[x].equals(supervisor[x + 3] )!=true) {
+                    if (supervisor[x].equals(supervisor[x+1] )==true
+                            &&supervisor[x].equals(supervisor[x + 2] )!=true&&supervisor[x].equals(supervisor[x + 3] )!=true) {
 
 
                         System.out.println(supervisor[x]);
